@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lpuart.h": "c",
+        "hardwarelib.h": "c",
+        "freertos.h": "c"
+    }
+}
