@@ -206,6 +206,15 @@
 #define configUSE_TRACE_FACILITY                 0
 #define configUSE_STATS_FORMATTING_FUNCTIONS     0
 
+/* Run time and task stats gathering related definitions. */
+// extern volatile uint32_t CPU_RunTime;
+// #define configGENERATE_RUN_TIME_STATS            1 
+// #define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS() (CPU_RunTime = 0ul) /* nothing */ /* default: use Tick counter as runtime counter */   
+//                                                  /* extern volatile uint32_t CPU_RunTime;  */
+// #define portGET_RUN_TIME_COUNTER_VALUE()         CPU_RunTime /* default: use Tick counter as runtime counter */ 
+// #define configUSE_TRACE_FACILITY                 1
+// #define configUSE_STATS_FORMATTING_FUNCTIONS     1
+
 
 /* Co-routine related definitions. */
 #define configUSE_CO_ROUTINES                    0

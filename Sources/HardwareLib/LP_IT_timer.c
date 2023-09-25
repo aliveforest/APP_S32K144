@@ -38,7 +38,7 @@ void LPIT_NVIC_init_IRQs (uint32_t vector_number, uint32_t priority) {
 
 
 /* 用于统计运行时间 */
-extern volatile uint32_t CPU_RunTime = 0UL;
+volatile uint32_t CPU_RunTime = 0UL;
 
 void LPIT0_Ch0_IRQHandler(void) {
     LPIT0->MSR |= LPIT_MSR_TIF0_MASK; /*  清除 LPIT0 定时器标志 0 */

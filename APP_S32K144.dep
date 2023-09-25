@@ -2152,7 +2152,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 89 421 424 425 225 447 443 77 242 248 351 434 211 471 344 338 352 473 474 476 475 354 324 341 336 353</file>
+                    <file> 89 421 424 425 225 447 443 77 242 248 351 434 211 471 344 338 352 473 474 476 475 354 324 341 336 353 144</file>
                 </tool>
             </inputs>
         </file>
@@ -2576,9 +2576,6 @@
         <forcedrebuild>
             <name>$PROJ_DIR$\SDK\drivers\src\mpu\mpu_hw_access.c</name>
             <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>[REBUILD_ALL]</name>
         </forcedrebuild>
     </configuration>
     <configuration>
