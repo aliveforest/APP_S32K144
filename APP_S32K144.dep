@@ -1,0 +1,2592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4278433063</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\SDK\drivers\inc\erm_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\ewm_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flash_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\eim_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flexcan_driver.h</file>
+            <file>$PROJ_DIR$\SDK\devices\startup.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\phy\phy_generic.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flexio.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flexio_i2c_driver.h</file>
+            <file>$PROJ_DIR$\SDK\devices\S32K144\include\S32K144_features.h</file>
+            <file>$PROJ_DIR$\SDK\devices\status.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flash_mx25l6433f_driver.h</file>
+            <file>$PROJ_DIR$\SDK\devices\device_registers.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\enet_driver.h</file>
+            <file>$PROJ_DIR$\Generated_Code\pwrMan1.c</file>
+            <file>$PROJ_DIR$\Generated_Code\pwrMan1.h</file>
+            <file>$PROJ_DIR$\SDK\devices\S32K144\startup\system_S32K144.c</file>
+            <file>$PROJ_DIR$\SDK\devices\S32K144\startup\system_S32K144.h</file>
+            <file>$PROJ_DIR$\SDK\devices\common\s32_core_cm4.h</file>
+            <file>$PROJ_DIR$\SDK\devices\devassert.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\adc_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\clock.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\csec_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\clock_manager.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\edma_driver.h</file>
+            <file>$PROJ_DIR$\SDK\devices\startup.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\phy\phy.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\cmp_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\phy\phy_tja110x.h</file>
+            <file>$PROJ_DIR$\SDK\devices\callbacks.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\crc_driver.h</file>
+            <file>$PROJ_DIR$\SDK\devices\S32K144\include\S32K144.h</file>
+            <file>$PROJ_DIR$\Generated_Code\clockMan1.c</file>
+            <file>$PROJ_DIR$\Generated_Code\Cpu.h</file>
+            <file>$PROJ_DIR$\Generated_Code\Cpu.c</file>
+            <file>$PROJ_DIR$\Generated_Code\clockMan1.h</file>
+            <file>$PROJ_DIR$\Generated_Code\Flash1.c</file>
+            <file>$PROJ_DIR$\Generated_Code\Flash1.h</file>
+            <file>$PROJ_DIR$\Generated_Code\pin_mux.h</file>
+            <file>$PROJ_DIR$\Generated_Code\pin_mux.c</file>
+            <file>$PROJ_DIR$\Generated_Code\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lptmr_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_manager_S32K1xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_S32K144.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pins_port_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lptmr_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_irq.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pins_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pin_mux.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_manager_S32K1xx.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_smc_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pins_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_S32K1xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin_lpuart_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pins_port_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pwrMan1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flash1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clockMan1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Cpu.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\RTOS_Task.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin_lpuart_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_S32K144.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap_4.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stream_buffer.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\FlashWriteRead.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RTOS_Task.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_S32K144.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stream_buffer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPIO_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\latency.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LP_IT_timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RTOS_Task.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LPTMR.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LPUART.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap_4.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stream_buffer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_smc_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_manager.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pins_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pins_port_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_manager.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lptmr_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_shared_function.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_manager_S32K1xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin_lpuart_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_smc_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_slave_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_irq.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap_4.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\PowerSwitch.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LPUART.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RGB_LED.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clockMan1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Cpu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpuart_driver.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED_FONT.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LPTMR.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPIO_init.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED_FONT.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flash1.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_manager.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pin_mux.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ymodem.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RGB_LED.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPI_OLED.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LP_IT_timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPI_OLED.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pwrMan1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\PowerSwitch.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\FlashWriteRead.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lptmr_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ymodem.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flash1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\latency.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pwrMan1.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_mc_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_spi_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_uart_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_pwm_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_irq.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_i2c_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_irq.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt_manager.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clockMan1.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_irq.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_i2s_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_common.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_master_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_irq.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_qd_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Cpu.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_ic_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_hw_access.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_oc_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpit_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_common.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\APP_S32K144.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\LP_IT_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LPTMR.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\APP_S32K144.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\FlashWriteRead.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_irq.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_hw_access.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPIO_init.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED_FONT.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\latency.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\PowerSwitch.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\RGB_LED.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_S32K1xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_S32K1xx.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\edma_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPI_OLED.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_driver.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ymodem.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LPUART.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lptmr_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpit_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_master_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_irq.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_shared_function.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpit_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_common.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_qd_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_mc_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt_manager.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_slave_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_oc_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_slave_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_hw_access.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_ic_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lptmr_hw_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_irq.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt_manager.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpi2c_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_shared_function.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_master_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpspi_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_pwm_driver.pbi</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lpspi_shared_function.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\ftm_mc_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lpspi_master_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flexio_uart_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\mpu_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\pdb_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\wdog_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\quadspi_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\interrupt_manager.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flexio_spi_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lpi2c_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lpuart_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\adc\adc_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\clock_S32K1xx.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lptmr_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\clock_S32K1xx.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\trgmux_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\ftm_oc_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\pcc_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\sai_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\ftm_ic_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lpit_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\flexio_i2s_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\ftm_qd_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lin_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\lpspi_slave_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\power_manager.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\rtc_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\pins_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\ftm_pwm_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\adc\adc_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\inc\ftm_common.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_common.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_ic_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_mc_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_oc_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\crc\crc_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_irq.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\scg_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\crc\crc_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_common.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\edma\edma_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_common.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\edma\edma_irq.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_uart_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\edma\edma_irq.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_irq.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_spi_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flash\flash_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\sim_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\edma\edma_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\edma\edma_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_i2c_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\pmc_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\smc_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\crc\crc_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_i2s_driver.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\StackMacros.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\task.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\pins\pins_port_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\pins\pins_port_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\croutine.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\event_groups.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_smc_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\wdog\wdog_driver.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\mpu_prototypes.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_smc_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\power\power_manager.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\wdog\wdog_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\timers.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\message_buffer.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\portable.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\GCC\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\list.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\wdog\wdog_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_rcm_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\projdefs.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\semphr.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_manager_S32K1xx.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\GCC\ARM_CM4F\portmacro.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_manager_S32K1xx.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_scg_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\queue.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\stack_macros.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_pwm_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_irq.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_slave_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_irq.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\mpu\mpu_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\pins\pins_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpuart\lin_lpuart_driver.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpit\lpit_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\pins\pins_gpio_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_irq.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_irq.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lptmr\lptmr_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\mpu\mpu_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\mpu\mpu_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpit\lpit_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_shared_function.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lptmr\lptmr_hw_access.h</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_master_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpuart\lin_lpuart_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_irq.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_hw_access.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\lptmr\lptmr_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_qd_driver.c</file>
+            <file>$PROJ_DIR$\SDK\drivers\src\interrupt\interrupt_manager.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\latency.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\croutine.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\timers.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\queue.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\stream_buffer.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\FlashWriteRead.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\GPIO_init.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\LP_IT_timer.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\event_groups.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\tasks.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\GPIO_init.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\latency.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\LP_IT_timer.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\LPTMR.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\LPUART.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\FlashWriteRead.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\LPUART.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\OLED_FONT.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\PowerSwitch.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\PowerSwitch.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\RGB_LED.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\RGB_LED.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\SPI_OLED.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\SPI_OLED.h</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\Ymodem.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\Ymodem.h</file>
+            <file>$PROJ_DIR$\Sources\main.c</file>
+            <file>$PROJ_DIR$\Sources\RTOS_Task.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\LPTMR.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\OLED_FONT.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\list.c</file>
+            <file>$PROJ_DIR$\Sources\HardwareLib\HardwareLib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_common.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_ic_driver.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_irq.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_mc_driver.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_spi_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_hw_access.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_uart_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_uart_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_pwm_driver.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_i2c_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_oc_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_qd_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_spi_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_i2s_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_i2c_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexcan_hw_access.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flexio_i2s_driver.o</file>
+            <file>$PROJ_DIR$\Sources\RTOS_Task.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_common.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ftm_hw_access.o</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\SDK\devices\S32K144\startup\startup_S32K144.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_lock.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_freertos.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_lock.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_task.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_freertos.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_timer.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdatomic.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\xatomic.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_freertos.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_task.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_lock.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\osif_task.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\APP_S32K144.map</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\APP_S32K144.hex</file>
+            <file>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\IAR\ARM_CM4F\portmacro.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\SDK\linker\S32K144_64_flash.icf</file>
+            <file>$PROJ_DIR$\SDK\linker\S32K144_64_ram.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\portasm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_S32K144.o</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif_timer.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif_freertos.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif_lock.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif_timer.c</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif_lock.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif_task.h</file>
+            <file>$PROJ_DIR$\SDK\rtos\osif\osif_task.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 197 466</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\devices\startup.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 211 421 424 425 225 447 12 18 31 9 19 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Generated_Code\pwrMan1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 35 220 211 421 424 425 225 447 33 12 18 31 9 19 268 21 10 275 2 434 443 286 348 17 38 288 351 471 344 338 352 473 474 476 475 354 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\devices\S32K144\startup\system_S32K144.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 18 31 211 421 424 425 225 447 9 19 220 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Generated_Code\clockMan1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 220 211 421 424 425 225 447 33 12 18 31 9 19 268 21 10 275 2 434 443 286 348 17 38 288 351 471 344 338 352 473 474 476 475 354 37 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Generated_Code\Cpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33 12 18 31 211 421 424 425 225 447 9 19 220 268 21 10 275 2 434 443 286 348 17 38 288 35 351 471 344 338 352 473 474 476 475 354 37 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Generated_Code\Flash1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 35 220 211 421 424 425 225 447 33 12 18 31 9 19 268 21 10 275 2 434 443 286 348 17 38 288 351 471 344 338 352 473 474 476 475 354 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Generated_Code\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 18 31 211 421 424 425 225 447 9 19 220 38 288 434 443 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\APP_S32K144.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 472</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 466</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 477 218 141 142 78 73 164 129 81 90 74 241 93 82 95 99 100 86 145 453 154 58 64 96 479 106 43 57 160 159 94 139 84 156 117 480 88 72 80 75 163 467 470 468 469</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\adc\adc_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 227</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 434 421 424 425 225 447 443 20 211 220 12 18 31 9 19 290 23 21 10 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31 211 225 424 290 447 421 12 19 21 10 20 23 443 425 220 18 9 434 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\clock\S32K1xx\clock_S32K1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 218</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 18 31 211 421 424 425 225 447 9 19 220 313 434 443 299 278 318 319 21 10 275 268</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 446</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 291 434 421 424 425 225 447 443 10 12 18 31 211 9 19 220 29 312 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225 211 23 434 12 424 447 421 18 9 21 10 312 29 443 425 31 19 220 291 268 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_ic_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 420</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 249</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 280 291 434 421 424 425 225 447 443 10 12 18 31 211 9 19 220 29 312 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 421 211 23 10 425 31 434 312 291 29 443 424 19 275 280 225 447 18 9 220 268 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_mc_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 423</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 261 291 434 421 424 425 225 447 443 10 12 18 31 211 9 19 220 29 312 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 425 291 10 31 211 23 421 29 443 424 19 434 21 312 12 225 447 18 9 220 261 268 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_oc_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 436</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 277 291 434 421 424 425 225 447 443 10 12 18 31 211 9 19 220 29 312 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29 19 424 211 23 443 10 421 425 31 434 21 312 291 12 225 447 18 9 220 277 268 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\crc\crc_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 224</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 18 31 211 421 424 425 225 447 9 19 220 320 30 434 443 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 424 31 421 320 19 225 220 30 10 18 9 211 447 434 443 12 425</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\crc\crc_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 320 30 434 421 424 425 225 447 443 12 18 31 211 9 19 220 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 424 447 421 9 211 30 12 225 434 10 443 425 31 19 320 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\edma\edma_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 185</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 222</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 315 211 421 424 425 225 447 220 24 12 18 31 9 19 10 434 443</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 211 421 220 425 434 18 424 12 24 225 447 10 31 19 443 315</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 432</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 419</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 18 31 211 421 424 425 225 447 9 19 220 301 434 443 309 7 485 10 24 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 485 443 12 434 268 18 9 211 309 301 31 19 421 425 220 24 424 225 447 7 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\edma\edma_irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 307 315 211 421 424 425 225 447 220 24 12 18 31 9 19 10 434 443</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211 421 10 225 31 424 24 447 19 315 220 425 12 434 18 9 443 307</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_uart_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 429</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 430</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 263 434 421 424 425 225 447 443 220 12 18 31 211 9 19 7 485 10 24 29 309 301 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 434 421 12 425 24 301 443 424 18 9 211 10 220 21 309 23 7 29 225 447 31 19 263 485 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 448</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 253</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 220 434 421 424 425 225 447 443 10 12 18 31 211 9 19 268 23 21 275 291 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 19 424 10 443 434 23 421 425 31 220 268 291 225 447 18 9 211 21 312 275 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 431</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 422</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 298 12 18 31 211 421 424 425 225 447 9 19 220</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 9 211 425 12 31 19 424 298 421 225 447 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_spi_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 427</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 439</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 269 434 421 424 425 225 447 443 220 12 18 31 211 9 19 7 485 10 24 29 309 301 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 434 485 12 424 447 31 421 301 24 225 19 7 10 211 309 23 220 29 443 425 18 9 275 269 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flash\flash_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 196</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 220 434 421 424 425 225 447 443 10 12 18 31 211 9 19 268</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\edma\edma_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 307 315 211 421 424 425 225 447 220 24 12 18 31 9 19 10 434 443 23 21 275 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 424 21 12 315 10 268 220 421 425 225 31 23 211 24 447 19 307 434 18 9 443 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 428</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 292 418 421 424 425 225 447 211 220 434 443 4 12 18 31 9 19 485 10 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 421 24 447 18 434 424 9 211 10 225 443 485 292 418 220 4 425 12 31 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_i2c_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 441</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 435</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 434 421 424 425 225 447 443 220 12 18 31 211 9 19 7 485 10 24 29 309 301 23 21 275 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 220 21 12 268 19 301 29 225 421 434 24 309 23 7 424 447 31 211 8 443 425 18 9 485 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 426</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 292 418 421 424 425 225 447 211 220 434 443 4 12 18 31 9 19 485 10 24 298 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225 443 485 12 211 268 434 421 447 424 24 18 9 10 298 23 418 220 4 425 31 19 275 292 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexio\flexio_i2s_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 444</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 440</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 282 434 421 424 425 225 447 443 220 12 18 31 211 9 19 7 485 10 24 29 309 301 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 7 220 21 19 225 421 434 24 301 29 424 447 31 12 211 309 23 443 425 18 9 485 275 282</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\pins\pins_port_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 325 288 434 421 424 425 225 447 443 12 18 31 211 9 19 220 10 369</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\wdog\wdog_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 342 434 421 424 425 225 447 443 266 10 268 12 18 31 211 9 19 220 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 443 424 9 211 266 421 425 268 220 21 10 23 434 225 447 12 31 19 342 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_smc_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 434 421 424 425 225 447 443 329 10 12 18 31 211 9 19 220 348</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\power\power_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 434 421 424 425 225 447 443 286 12 18 31 211 9 19 220 10 348</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\wdog\wdog_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 342 434 421 424 425 225 447 443 266 10 268 12 18 31 211 9 19 220</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 421 266 424 447 225 10 18 9 211 434 443 425 268 12 31 19 342 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\GCC\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 421 424 425 225 447 443 77 351 434 211 471 344 338 352 473 474 476 475 354 324 341</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\power\S32K1xx\power_manager_S32K1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 434 421 424 425 225 447 443 286 12 18 31 211 9 19 220 10 348 329 343 349 23 21 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_pwm_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 433</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 259</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 289 291 434 421 424 425 225 447 443 10 12 18 31 211 9 19 220 29 312 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 10 421 211 23 29 425 31 434 312 291 443 424 19 275 289 225 447 18 9 220 268 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 247</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 258</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 370 211 421 424 425 225 447 220 434 443 10 12 18 31 9 19 260 24 23 21 275 485 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 424 220 18 260 447 421 9 211 10 225 434 12 425 443 31 19 23 21 370 24 485 29 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_slave_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 244</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 421 424 425 225 447 443 248 285 260 220 24 12 18 31 211 9 19 10 434 23 21 275 485 29 268 370</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 443 447 23 19 21 211 370 421 248 225 220 31 12 285 268 424 425 260 24 485 29 434 18 9 242 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 434 421 424 425 225 447 443 220 360 271 12 18 31 211 9 19 10 268 485 24 29 361 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271 10 23 425 24 18 360 421 9 211 220 361 443 424 434 485 268 275 12 225 447 29 31 19 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 360 271 434 421 424 425 225 447 443 12 18 31 211 9 19 220 10 268 485 24 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 425 485 10 31 434 421 271 24 443 424 19 12 268 29 225 447 18 9 211 360 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\mpu\mpu_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 375 264 10 12 18 31 211 421 424 425 225 447 9 19 220</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 211 18 424 10 264 12 31 19 425 375 421 225 447 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\pins\pins_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 18 31 211 421 424 425 225 447 9 19 220 369 288 434 443 10 325</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 254</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 434 421 424 425 225 447 443 220 12 18 31 211 9 19 10 24 485 29 268 362 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211 10 443 9 362 220 485 424 18 12 268 23 434 24 29 421 425 270 275 225 447 31 19 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 255</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 418 421 424 425 225 447 220 12 18 31 211 9 19 260 24 10 434 443 23 21 275 485 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 23 211 225 31 12 421 447 19 424 220 260 425 18 9 434 443 275 418 24 485 29 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 251</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 18 31 211 421 424 425 225 447 9 19 220 270 434 443 10 24 485 29 356</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 9 211 220 434 356 421 425 485 10 270 31 19 424 12 225 447 24 29 443</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lptmr\lptmr_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 250</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 378 211 421 424 425 225 447 220 434 443 12 18 31 9 19 274 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 447 421 9 211 434 424 18 274 225 12 220 425 443 31 19 378 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\mpu\mpu_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 434 421 424 425 225 447 443 375 264 10 12 18 31 211 9 19 220</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 425 18 421 9 211 443 424 10 375 225 447 264 12 31 19 434 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpit\lpit_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 434 421 424 425 225 447 443 281 211 220 10 367 12 18 31 9 19 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 421 9 211 12 23 424 447 434 18 367 225 10 281 268 443 425 220 31 19 275 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_shared_function.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 256</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 418 421 424 425 225 447 370 211 220 434 443 10 12 18 31 9 19 260 24 23 21 275 485 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31 220 225 434 443 10 421 447 211 12 424 19 370 425 260 18 9 23 21 418 24 485 29 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpspi\lpspi_master_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 257</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 421 424 425 225 447 443 248 262 260 220 24 12 18 31 211 9 19 10 434 23 21 275 485 29 370 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 211 29 12 424 24 434 18 23 425 260 485 443 10 262 268 370 421 248 225 447 220 31 19 275 242 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpuart\lin_lpuart_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 366 360 271 434 421 424 425 225 447 443 12 18 31 211 9 19 220 10 268 485 24 29 23 21 275 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 220 211 485 29 424 12 284 268 225 21 360 447 421 18 9 434 10 366 23 271 24 443 425 31 19 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpuart\lpuart_irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 361 12 18 31 211 421 424 425 225 447 9 19 220 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31 220 268 447 12 19 421 18 9 211 225 361 424 425</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lpi2c\lpi2c_hw_access.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 362 220 270 434 421 424 425 225 447 443 12 18 31 211 9 19 10 24 485 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225 434 220 24 10 12 29 424 447 421 18 9 211 270 485 443 425 31 19 362</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\lptmr\lptmr_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 229</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 274 211 421 424 425 225 447 220 10 12 18 31 9 19 378 434 443 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211 220 23 10 421 425 18 9 424 21 378 12 225 447 31 19 274 434 443 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\ftm\ftm_qd_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 437</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 283 291 434 421 424 425 225 447 443 10 12 18 31 211 9 19 220 29 312 268 23 21 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 424 447 18 211 23 12 421 9 434 225 21 10 312 291 29 443 425 31 19 220 283 268 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\drivers\src\interrupt\interrupt_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 241</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268 12 18 31 211 421 424 425 225 447 9 19 220 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 351 434 421 424 425 225 447 443 211 471 344 338 352 473 474 476 475 354 324 341 327</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 214</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 421 424 425 225 447 443 77 351 434 211 471 344 338 352 473 474 476 475 354 324 341 350 336</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 421 424 425 225 447 443 77 242 248 351 434 211 471 344 338 352 473 474 476 475 354 324 341 350</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211 421 424 425 225 447 242 443 248 351 434 471 344 338 352 473 474 476 475 354 324 341 331</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\GPIO_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 396 31 211 421 424 425 225 447 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\LP_IT_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 211 421 424 425 225 447 398 402 417 89 443 77 144 220 242 248 12 18 9 19 351 434 471 344 338 352 473 474 476 475 354 324 341 350 345 336 407 386 396 399 391 33 268 21 10 275 2 286 348 17 38 288 35 37 15 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 421 424 425 225 447 443 77 351 434 211 471 344 338 352 473 474 476 475 354 324 341 336 328</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 206</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 421 424 425 225 447 443 77 242 248 351 434 211 471 344 338 352 473 474 476 475 354 324 341 336 353</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\latency.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 386 31 211 421 424 425 225 447 17 12 18 9 19 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\LPUART.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 228</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 211 421 424 425 225 447 12 18 9 19 220 402 417 89 443 77 144 242 248 351 434 471 344 338 352 473 474 476 475 354 324 341 350 345 336 407 386 396 399 398 391 33 268 21 10 275 2 286 348 17 38 288 35 37 15 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\FlashWriteRead.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 391 33 12 18 31 211 421 424 425 225 447 9 19 220 268 21 10 275 2 434 443 286 348 17 38 288 35 351 471 344 338 352 473 474 476 475 354 37 15 417 89 77 144 242 248 324 341 350 345 336 407 386 402 396 399 398 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\PowerSwitch.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 216</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 405 33 12 18 31 211 421 424 425 225 447 9 19 220 268 21 10 275 2 434 443 286 348 17 38 288 35 351 471 344 338 352 473 474 476 475 354 37 15 417 89 77 144 242 248 324 341 350 345 336 407 386 402 396 399 398 391 409</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\RGB_LED.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 407 31 211 421 424 425 225 447 12 18 9 19 220 417 89 443 77 144 242 248 351 434 471 344 338 352 473 474 476 475 354 324 341 350 345 336 386 402 396 399 398 391 33 268 21 10 275 2 286 348 17 38 288 35 37 15 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\SPI_OLED.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 409 31 211 421 424 425 225 447 403 386</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\Ymodem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 411 211 421 424 425 225 447 31 391 33 12 18 9 19 220 268 21 10 275 2 434 443 286 348 17 38 288 35 351 471 344 338 352 473 474 476 475 354 37 15 417 89 77 144 242 248 324 341 350 345 336 407 386 402 396 399 398 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33 12 18 31 211 421 424 425 225 447 9 19 220 268 21 10 275 2 434 443 286 348 17 38 288 35 351 471 344 338 352 473 474 476 475 354 37 15 417 89 77 144 242 248 324 341 350 345 336 407 386 402 396 399 398 391 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\RTOS_Task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 445 351 434 421 424 425 225 447 443 211 471 344 338 352 473 474 476 475 354 324 341 350 345 336 33 12 18 31 9 19 220 268 21 10 275 2 286 348 17 38 288 35 37 15 417 89 77 144 242 248 407 386 402 396 399 398 391 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\LPTMR.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 399 31 211 421 424 425 225 447 12 18 9 19 220 402 417 89 443 77 144 242 248 351 434 471 344 338 352 473 474 476 475 354 324 341 350 345 336 407 386 396 398 391 33 268 21 10 275 2 286 348 17 38 288 35 37 15 409 405</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sources\HardwareLib\OLED_FONT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211 421 424 425 225 447 403</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 421 424 425 225 447 443 77 351 434 211 471 344 338 352 473 474 476 475 354 341</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 474 476 424 425 225 447 475 351 434 421 443 211 471 344 338 352 473 354 324 341</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 479</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 471</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\devices\S32K144\startup\startup_S32K144.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 480</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\osif\osif_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 453</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 456</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 462</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220 12 18 31 211 421 424 425 225 447 9 19 485 351 434 443 471 344 338 352 473 474 476 475 354 345 350 10 324 341</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\osif\osif_lock.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 452</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 464</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 485 459 434 421 424 425 225 447 443 211 460 220 10 486</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\osif\osif_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 461</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 458</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 457</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 485 459 434 421 424 425 225 447 443 211 460 220 10 481 487</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SDK\rtos\osif\osif_task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 455</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 463</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 465</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_hw_access.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\SDK\drivers\src\flexcan\flexcan_driver.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\SDK\rtos\FreeRTOS_S32K\Source\portable\GCC\ARM_CM4F\port.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\SDK\drivers\src\mpu\mpu_hw_access.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
