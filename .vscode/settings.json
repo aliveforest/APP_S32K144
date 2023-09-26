@@ -2,6 +2,7 @@
     "files.associations": {
         "lpuart.h": "c",
         "hardwarelib.h": "c",
-        "freertos.h": "c"
+        "freertos.h": "c",
+        "rtos_task.h": "c"
     }
 }

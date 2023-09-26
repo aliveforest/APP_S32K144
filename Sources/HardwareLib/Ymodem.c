@@ -11,6 +11,7 @@
 #include "LPUART.h"
 #include "latency.h"
 
+#ifdef YMODEM  /* 如果使用YMODEM协议 */
 /* 变量声明 */
 static uint32_t Erase_Pages = 0;
 static volatile uint32_t FlashDestination = Flash_Start_Address; /* 存储Flash偏移 */
@@ -218,3 +219,4 @@ uint16_t crc16(uint8_t *data, uint32_t length) {
     return crc;
 }
 
+#endif
