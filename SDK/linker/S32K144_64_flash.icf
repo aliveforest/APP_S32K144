@@ -45,7 +45,7 @@ define symbol m_flash_config_start     = 0x00000400 + m_offset_boot;
 define symbol m_flash_config_end       = 0x0000040F + m_offset_boot;
 
 define symbol m_text_start             = 0x00000410 + m_offset_boot;
-define symbol m_text_end               = 0x0003B800 + m_offset_boot;
+define symbol m_text_end               = 0x0003B7FF + m_offset_boot;
 
 /* SRAM_L */
 define symbol m_interrupts_ram_start   = 0x1FFF8000;

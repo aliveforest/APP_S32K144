@@ -68,13 +68,9 @@ typedef struct {
 }YmFrame_t;
 
 extern volatile int32_t packets_index;
-extern uint8_t file_name[FILE_NAME_LENGTH], file_size[FILE_SIZE_LENGTH];
 
-uint8_t char_2_hex(uint8_t *src);
-ret_t Receive_Packet(YmFrame_t *Ym_F);
 ret_t Ymodem_Receive_File(uint32_t FlashDestination, uint32_t timeout) ;
 
-uint16_t crc16(uint8_t *data, uint32_t length);
 
 #endif
 

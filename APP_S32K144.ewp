@@ -350,6 +350,7 @@
                     <state>$PROJ_DIR$\Sources</state>
                     <state>$PROJ_DIR$\Sources\HardwareLib</state>
                     <state>$PROJ_DIR$\SDK</state>
+                    <state>$PROJ_DIR$\SDK\rtos</state>
                     <state>$PROJ_DIR$\SDK\devices</state>
                     <state>$PROJ_DIR$\SDK\devices\common</state>
                     <state>$PROJ_DIR$\SDK\devices\S32K144\include</state>
@@ -671,7 +672,7 @@
                 <option>
                     <name>OOCOutputFormat</name>
                     <version>3</version>
-                    <state>1</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>OCOutputOverride</name>
@@ -679,7 +680,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>APP_S32K144.hex</state>
+                    <state>APP_S32K144.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>

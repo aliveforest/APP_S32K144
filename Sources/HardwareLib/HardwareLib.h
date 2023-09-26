@@ -31,5 +31,6 @@
 #include "FlashWriteRead.h"
 #include "SPI_OLED.h"
 #include "PowerSwitch.h"
+#include "Ymodem.h"
 
 #endif /* HARDWARELIB_H_ */

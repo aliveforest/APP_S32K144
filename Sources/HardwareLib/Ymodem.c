@@ -3,6 +3,7 @@
  *
  *  Created on: 2023年8月25日
  *      Author: dengtongbei
+ *		Modify: 2023-9-26: 去除malloc（易报错），改为先申请结构体实例，再赋值其地址给类型指针
  */
 #include "Ymodem.h"
 #include <stdlib.h>
@@ -10,12 +11,13 @@
 #include "LPUART.h"
 #include "latency.h"
 
-#ifdef YMODEM  /* 如果使用YMODEM协议 */
 /* 变量声明 */
-uint32_t Erase_Pages = 0;
-
-volatile uint32_t FlashDestination = Flash_Start_Address; /* 存储Flash偏移 */
-uint32_t PageSize = Flash_Erase_Size;
+static uint32_t Erase_Pages = 0;
+static volatile uint32_t FlashDestination = Flash_Start_Address; /* 存储Flash偏移 */
+static uint32_t PageSize = Flash_Erase_Size;
+/* 函数声明 */
+uint16_t crc16(uint8_t *data, uint32_t length);
+ret_t Receive_Packet(YmFrame_t *Ym_F);
 
 /* 发送单个字符 */
 static ret_t Send_Byte(uint8_t c){
@@ -39,19 +41,19 @@ static ret_t Ym_Cmd_Process(uint8_t cmd_c){
 }
 
 /* 清空 Ym_F 结构体 */
-void Clear_YM(YmFrame_t *Ym_F){
-	Ym_F->HEAD=0;
-    Ym_F->Index=0;
-    Ym_F->Index_Inversion=0;
-    Ym_F->file_size=0;
-    Ym_F->data_length=0;
-    Ym_F->CRC_H=0;
-    Ym_F->CRC_L=0;
-    Ym_F->CRC16=0;
-    memset(Ym_F->data,0, sizeof(Ym_F->data)/sizeof(Ym_F->data[0])); /* 清空data数组 */
+static void Clear_YM(YmFrame_t *Ym_x){
+    Ym_x->HEAD=0u;
+    Ym_x->Index=0u;
+    Ym_x->Index_Inversion=0u;
+    Ym_x->file_size=0u;
+    Ym_x->data_length=0u;
+    Ym_x->CRC_H=0u;
+    Ym_x->CRC_L=0u;
+    Ym_x->CRC16=0u;
+    memset(Ym_x->data,0u, sizeof(Ym_x->data)/sizeof(Ym_x->data[0])); /* 清空data数组 */
 }
 
-uint8_t file_name[FILE_NAME_LENGTH]={0}, file_size[FILE_SIZE_LENGTH]={0};
+static uint8_t file_name[FILE_NAME_LENGTH]={0}, file_size[FILE_SIZE_LENGTH]={0};
 /* 文件信息存储 ASCII形式*/
 static ret_t File_Information_Storage(YmFrame_t *Ym_F){
     uint16_t i,j;
@@ -77,7 +79,8 @@ static ret_t File_Information_Storage(YmFrame_t *Ym_F){
     return RE_OK;
 }
 
-volatile uint32_t bits_remain = 1024u; /* 记录剩余多少字节的数据未接收 */
+static YmFrame_t Ym_st; /* 申请结构体实例 */
+static volatile uint32_t bits_remain = 1024u; /* 记录剩余多少字节的数据未接收 */
 volatile int32_t packets_index = -1;
 /* 通过Ymodem协议接收一个文件 */
 ret_t Ymodem_Receive_File(uint32_t FlashDestination, uint32_t timeout) {
@@ -85,8 +88,7 @@ ret_t Ymodem_Receive_File(uint32_t FlashDestination, uint32_t timeout) {
     int32_t last_index, j;
     ret_t ret = RE_ERROR;
 	status_t flash_status;
-	YmFrame_t *Ym_F;
-	Ym_F = (YmFrame_t *)malloc(sizeof(YmFrame_t));  /* 内存分配 */
+	YmFrame_t *Ym_F = &Ym_st;   /* 结构体地址赋值给指针 */
     Clear_YM(Ym_F);/* 清空Ym_F所有内容 */
     memset(receivebuff,0, sizeof(receivebuff)/sizeof(receivebuff[0])); /* 清空receivebuff数组 */
     packets_index=-1; /* 用于记录接收了帧数据 */
@@ -99,7 +101,7 @@ ret_t Ymodem_Receive_File(uint32_t FlashDestination, uint32_t timeout) {
     			Clear_YM(Ym_F);/* 清空Ym_F所有内容 */
     			return RE_TMOUT;
     		}
-    		if(packets_index == -1 || j>15){
+    		if(packets_index == -1 ){
     			Send_Byte(YM_C); /* 发送握手信号 */
     		}
 			later_ms(200);   /* 延时，等待串口接收数据 */
@@ -147,7 +149,6 @@ ret_t Ymodem_Receive_File(uint32_t FlashDestination, uint32_t timeout) {
         }
         if(file_done==1) {
         	Clear_YM(Ym_F);/* 清空Ym_F所有内容 */
-        	free(Ym_F);
         	LPUART1_printf("Ymodem file received success! \r\n");
         	later_ms(1000); /* 延时 */
         	return RE_OK;
@@ -217,4 +218,3 @@ uint16_t crc16(uint8_t *data, uint32_t length) {
     return crc;
 }
 
-#endif

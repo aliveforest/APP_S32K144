@@ -1,6 +1,6 @@
 ﻿###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  25/Sep/2023  17:01:17
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  26/Sep/2023  14:28:37
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        D:\dengtongbei\IAR_works\APP_S32K144\Debug\List\APP_S32K144.map
 #    Command line =  
-#        -f C:\Users\DENGTO~1\AppData\Local\Temp\EW2E35.tmp
+#        -f C:\Users\DENGTO~1\AppData\Local\Temp\EWAB57.tmp
 #        (D:\dengtongbei\IAR_works\APP_S32K144\Debug\Obj\clock_S32K1xx.o
 #        D:\dengtongbei\IAR_works\APP_S32K144\Debug\Obj\clockMan1.o
 #        D:\dengtongbei\IAR_works\APP_S32K144\Debug\Obj\Cpu.o
@@ -85,10 +85,10 @@ application.
 "A0":  place at 0x9000 { ro section .intvec };
 "P1":  place in [from 0x9400 to 0x940f] { section FlashConfig };
 "P2":  place in [from 0x9000 to 0x93ff] |
-                [from 0x9410 to 0x4'4800] { ro };
+                [from 0x9410 to 0x4'47ff] { ro };
 define block __CODE_ROM { section .textrw_init };
 "P3":  place in [from 0x9000 to 0x93ff] |
-                [from 0x9410 to 0x4'4800] { block __CODE_ROM };
+                [from 0x9410 to 0x4'47ff] { block __CODE_ROM };
 define block RW { rw };
 "P4":  place in [from 0x1fff'8400 to 0x1fff'ffff] { block RW };
 define block __CODE_RAM { section .textrw };
@@ -315,7 +315,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-     0x1'0f70     0x4'4800  0x3'3891
+     0x1'0f70     0x4'47ff  0x3'3890
   0x1fff'8578  0x1fff'ffff    0x7a88
   0x2000'27eb  0x2000'6bff    0x4415
 

@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\APP_S32K144.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\BOOT_S32K144_IAR\BOOT_S32K144_IAR.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
